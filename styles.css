@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap");
+
+body {
+  margin: 0px;
+  background-color: rgba(12, 11, 11, 0.925);
+  color: aliceblue;
+}
+
+header {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  /* text-decoration: underline; */
+  /* line-height: 20px; */
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.082);
+  background-image: url("images/calculator2.jpg");
+  /* margin: 20px 300px; */
+}
+
+.calculator {
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1.5px solid black;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.footer {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+  margin-top: 10px;
+}
